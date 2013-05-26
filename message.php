@@ -6,7 +6,7 @@
 
 session_start();
 
-echo "<iframe width='81%' height='65%' name='messages' id='m' align='left' src='msg.html'>
+echo "<iframe width='81%' height='65%' name='messages' id='m' align='left' src='msg.html#BOTTOM'>
 </iframe>";
 
 $_SESSION["reciever"]=$_POST["bud"];
